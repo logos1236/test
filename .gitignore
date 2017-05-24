@@ -1,0 +1,8 @@
+# system
+.DS_Store
+Thumbs.db
+
+# dumps and backups
+/TestProject/.idea/*
+/TestProject/out/*
+
