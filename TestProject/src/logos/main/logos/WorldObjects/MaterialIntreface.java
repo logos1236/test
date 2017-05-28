@@ -6,4 +6,5 @@ import java.util.ArrayList;
  */
 public interface MaterialIntreface {
     public ArrayList<Material> BurnMaterial ();
+    public Material[] DecomposeMaterial ();
 }

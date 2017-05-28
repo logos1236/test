@@ -17,10 +17,18 @@ public class main {
         Brick floor = new Brick("floor", 1, wooden_brick_material);
         /*=== ! Create things ===*/
 
-        ArrayList<WorldObjects> bonfier_result = floor.BurnObject();
+        /*=== Burn ===*/
+        /*ArrayList<WorldObjects> bonfier_result = floor.BurnObject();
         for(WorldObjects bonfier_result_obj: bonfier_result) {
             System.out.println(bonfier_result_obj.GetName());
+        }*/
+
+        /*=== Decomposite material ===*/
+        Material[]  decomposite_reslt = Material.WATER.DecomposeMaterial();
+        for(Material decomposite_reslt_obj: decomposite_reslt) {
+            System.out.println(decomposite_reslt_obj.getName());
         }
+
         //System.out.println(floor.name);
         //System.out.println(floor.material.get(0).getName());
     }
